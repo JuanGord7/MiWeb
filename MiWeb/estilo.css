@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.colLogo{
+    margin: 20px;
+    text-align: center;
+}
+
+.filaLogo{
+    background-image: url(Images/Rayas.webp);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: #AB9144;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.parrafoIntro{
+    margin: auto;
+}
+
+.logo-img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.Logorow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logorow img {
+    max-width: 100px;
+    height: auto;
+}
+
+.RedesTextRow{
+    margin: 10px;
+    text-align: center;
+}
+
+.decoracion img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-list li {
+    background-color: #ff1f87;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.custom-list li:hover {
+    background-color: #e9ecef;
+}
+
+.botonCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-custom {
+    background-color: #ff1f87;
+}
